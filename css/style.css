@@ -1,0 +1,77 @@
+
+/* 该选择器表示：是div元素同时还是img类 */
+div.img {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.img:hover {
+  border: 1px solid #777;
+}
+
+div.img img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+.example-1 {
+  border: 1px dotted black; /* 上下左右都相同 */
+}
+.example-2 {
+  border-bottom: 1px solid blue; /* 只设置底部边框 */
+}
+.example-3 {
+  border: 1px solid grey;
+  border-radius: 15px; /* 边框圆角 */
+}
+.example-4 {
+  border-left: 5px solid purple;
+}
+.box1 {
+  height: 200px;
+  width: 200px;
+  background-color:#615200;
+  color: aliceblue;
+  border: 10px solid red;
+  padding: 25px;
+  margin: 25px;
+}
+.box2 {
+  height: 300px;
+  width: 300px;
+  background-color:#004d61;
+  color: aliceblue;
+  border: 10px solid blue;
+  padding: 25px;
+  margin: 25px;
+}
+fieldset{
+  width: 500px;
+  min-height: 200px;
+  border-radius: 101px;
+  border: 2px solid #050c0c;
+}
+html,
+body,
+header,
+#intro {
+    height: 100%;
+}
+
+#intro {
+    background: url("../img/b1.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover; /* 针对Chrome, Safari, Edge等浏览器 */
+    -moz-background-size: cover;    /* 针对Firefox浏览器 */
+    -o-background-size: cover;      /* 针对Operallq */
+    background-size: cover;         /* 通用 */
+}
+
+.top-nav-collapse {
+  background-color: #24355C;
+}
